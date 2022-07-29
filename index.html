@@ -4,26 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News|webpage|home</title>
+  <link rel="preconnect" href="https://fonts.googleapis. com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Staatliches&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/36d5c4f503.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <title>News|webpage|home</title>
 </head>
 <body>
   <!-- header -->
-  <header id="header">
+  <header id="header" class="p-1">
     <div class="container">
       <div class="logo">
-        <h2>News<span>Grid</span></h2>
+        <a href="index.html"><img src="images/logo.png" alt="brand-logo"></a>
       </div>
-      <div class="icons">
-        <a href= "#" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+      <div class="social">
+        <a href= "#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href= "#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href= "#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         <a href= "#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
       </div>
       <ul class="links">
-        <li><a href="index.html" class="current">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html" class="current p-1">Home</a></li>
+        <li><a href="about.html" class="p-1">About</a></li>
       </ul>
     </div>
   </header>
@@ -31,11 +34,11 @@
   <section id="showcase">
     <div class="container">
       <div class="showcase-container">
-        <div class="content">
+        <div class="content p-3">
           <div class="category category-sports">sports</div>
           <h1>some sports article</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod accusantium, cumque rem vero quisquam aliquid voluptatibus tempore, sit, ex ab quam itaque ut magnam! Perspiciatis doloribus omnis temporibus dolores repellendus!</p>
-          <a href="#" class="btn btn-primary">Read More</a>
+          <a href="article.html" class="btn btn-primary">Read More</a>
       </div>
       </div>
     </div>
@@ -43,7 +46,7 @@
 
   <!-- home articles -->
 
-  <section id="home-articles">
+  <section id="home-articles" class="py-2">
     <div class="container">
       <h2>Editors Pick</h2>
       <div class="article-container">
@@ -98,14 +101,15 @@
         <img src="images/articles/ent2.jpg" alt="">
       </article>
       </div>
-
     </div>
   </section>
+
   <!-- footer -->
-  <section id="footer">
+
+  <section id="footer" class="py-2">
     <div class="container footer-container">
       <div>
-        <img src="images/logo_light.png" alt="">
+        <img src="images/logo_light.png" alt="brand-logo-light">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum alias atque harum sequi fugit vero deserunt odio quas ratione ad.</p>
       </div>
       <div>
@@ -113,12 +117,12 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, omnis?</p>
         <form action="">
           <input type="email" name="" id="" placeholder="Enter your email id">
-          <input type="button" value="subscribe" class="btn btn-primary btn-span">
+          <input type="button" value="subscribe" class="btn btn-primary">
         </form>
       </div>
       <div>
         <h3>site links</h3>
-        <ul>
+        <ul class="list">
           <li><a href="#">Help & Support</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">About Us</a></li>
@@ -128,11 +132,11 @@
       <div>
         <h2>join our club</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, tempora!</p>
-        <a href="#" class=" btn btn-sports">join now</a>
+        <a href="#" class=" btn btn-secondary">join now</a>
       </div>
-      <div>home grid</div>
-
+      <div> <a href="index.html">home grid</a> </div>
     </div>
+
   </section>
 
 
